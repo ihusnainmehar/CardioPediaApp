@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CardioPedia</string>
+    <string name="Name">CardioPedia</string>
+    <string name="coffee_25_title">Brazilian Coffee</string>
+    <string name="about_us">CardioPedia is an AI integrated Medical Assistance App for Cardiac Patients to help them with their medical needs.</string>
+    <string-array name="specialization_options">
+        <item>Cardiologist</item>
+        <item>Cardiovascular Surgeon</item>
+    </string-array>
+    <string name="my_map_api_key">AIzaSyDZXn5OOe6QQYRokkry16_6-fRMrGmxtmI</string>
+</resources>

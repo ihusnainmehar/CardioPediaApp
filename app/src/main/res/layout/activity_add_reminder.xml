@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddReminderActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Reminder"
+            android:layout_marginBottom="32dp"
+            android:textColor="@color/Purple_600"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Name"
+        android:textColor="@color/Purple_600"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/medicineName"
+        android:hint="Enter Medicine Name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_background"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/Purple_600"
+        android:textColorHint="@color/Purple_600"
+        android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dosage"
+            android:textColor="@color/Purple_600"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    <EditText
+        android:id="@+id/dosage"
+        android:hint="Enter Dosage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@color/Purple_600"
+        android:textColorHint="@color/Purple_600"
+        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequency"
+            android:textColor="@color/Purple_600"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/frequency"
+            android:hint="Enter Frequency"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edittext_background"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="@color/Purple_600"
+            android:textColorHint="@color/Purple_600"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick Time"
+            android:textColor="@color/Purple_600"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dosage"
+        android:timePickerMode="spinner" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveReminder"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button_background"
+        android:text="Save Reminder"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

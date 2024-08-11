@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096924254715",
+    "project_id": "cardiopediaapp-8bf66",
+    "storage_bucket": "cardiopediaapp-8bf66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096924254715:android:e8103427a9de7ee7653b5e",
+        "android_client_info": {
+          "package_name": "com.example.cardiopediaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcj9afnyoX1LctmMD7ngfMkuefN1DUfhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
